@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="invite.css">
+    <title>Wedding Invite</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #001f3f; /* Dark blue background for fallback */
+        }
+
+        .starry-background {
+            position: fixed; /* Fixed to cover the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("stars.jpg") no-repeat center center; /* Center the background image */
+            background-size: cover; /* Cover the entire area */
+        }
+
+        .container {
+            position: relative; /* Container for text */
+            color: white; /* Text color */
+            z-index: 1; /* Ensure text is above the background */
+            text-align: center; /* Center align text */
+            padding: 20px; /* Add padding for better spacing */
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+            border-radius: 10px; /* Rounded corners */
+            max-width: 600px; /* Max width to keep it contained */
+            margin: 50px auto; /* Center in the page */
+        }
+
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding for the list */
+        }
+    </style>
+</head>
+<body>
+    <div class="starry-background"></div>
+    <div class="container">
+        <header>
+            <h1>Ana & Cesar</h1>
+        </header>
+        <main>
+            <h2>Together With Our Families, We Invite You to Our Wedding</h2>
+            <h3>Join Us for Our Special Day</h3>
+            <ul>
+                <li>Date: February 1, 2025</li>
+                <li>Time: 5:00 pm</li>
+                <li>The Ceremony Will Take Place At:<br>
+                    <strong>Potawatami Conservatories</strong><br>
+                    2105 E Mishawaka Ave<br>
+                    South Bend, IN<br>
+                    46615
+                </li>
+                <li>Please RSVP by January 24, 2025 by Texting <strong><a href="tel:+15745750555" style="color: white;">(574) 575-0555</a></strong></li>
+            </ul>
+            <h4>Join Us in Celebrating Our Special Day of Love and Commitment</h4>
+        </main>
+    </div>
+</body>
+</html>
+
